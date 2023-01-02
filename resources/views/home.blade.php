@@ -76,6 +76,29 @@
                                 </div>
                             </div>
                         </div>
+                        <!--MENU UNTUK STAFF MARKETING-->
+                    <div class="row mt-2">
+                            <div class="col-6">
+                                <div class="card p-2">
+                                    <div class="card-header text-white bg-secondary">Input Data Marketing</div>
+ 
+                                    <div class="card-body">
+                                        <span>Input produk anda di sini</span>
+                                    </div>
+                                    <a href="{{ url('input_produk') }}" class="btn btn-sm text-white btn-info">Input</a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card p-2">
+                                    <div class="card-header text-white bg-secondary">Data Marketing</div>
+ 
+                                    <div class="card-body">
+                                        <span>Lihat produk anda di sini</span>
+                                    </div>
+                                    <a href="{{ url('report_produk') }}" class="btn btn-sm text-white btn-warning">View Report</a>
+                                </div>
+                            </div>
+                        </div>
                     @endif
                 </div>
             </div>
